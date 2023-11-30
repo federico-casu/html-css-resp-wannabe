@@ -128,10 +128,28 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- /* ANCHOR tablet max-width 768px */
+/* ANCHOR tablet max-width 768px */
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
-        width: 90%;
+        width: 100%;
     }
- }
+}
+
+
+/* ANCHOR mobile max-width 480px */
+
+@media screen and (max-width: 480px) {
+    .container, 
+    .lessons .col, 
+    .steps .col, 
+    .why-us .col-left, 
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        gap: 2.5rem;
+    }
+}
