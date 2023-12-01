@@ -160,4 +160,13 @@ img {
         flex-wrap: wrap;
         gap: 2.5rem;
     }
+
+    .why-us {
+        padding: 3rem 0;
+        background-color: rgba(34, 34, 34, 1);
+    }
+
+    .steps, .why-us {
+        margin-bottom: 0;
+    }
 }
